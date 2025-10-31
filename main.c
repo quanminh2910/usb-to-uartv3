@@ -4,6 +4,7 @@
 #define UART_DATA_REG (*(volatile unsigned int*)(UART_BASE + 0x00))
 #define UART_STAT_REG (*(volatile unsigned int*)(UART_BASE + 0x04))
 
+
 // Define the status bits for your simple_uart
 #define UART_STAT_RX_VALID (1 << 0)
 #define UART_STAT_TX_READY (1 << 1)
